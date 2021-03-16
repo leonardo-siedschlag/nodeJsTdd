@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        
+        "_comentario": "gera um formato do commonjs que  node e navegadores aceitam",
+        "module": "commonjs",
+        "target": "es2019",
+        "esModuleInterop": true,
+        "allowJs": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
