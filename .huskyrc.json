@@ -1,6 +1,6 @@
 {
     "hooks":{
-        "pre-commit" : "esling"
+        "pre-commit" : "lint-staged"
     }
 
 }
