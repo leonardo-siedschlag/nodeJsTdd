@@ -1,6 +1,6 @@
-
-export class SignUpController{
-  handle (httpRequest :any): any{
+import { HttpResponse, HttpRequest } from '../protocols/htpp'
+export class SignUpController {
+  handle (httpRequest : HttpRequest): HttpResponse {
     
     if(!httpRequest.body.name){
       return {
