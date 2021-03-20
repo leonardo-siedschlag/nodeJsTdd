@@ -4,6 +4,6 @@ export interface HttpResponse {
 }
 
 export interface HttpRequest {
-    //? opcional nem sempre vai body 
+    //? opcional nem sempre vai body pode ser como pode nao ser
     body?: any
 }
